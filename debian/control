@@ -1,0 +1,15 @@
+Source: hesailidarsdk
+Section: misc
+Priority: optional
+Maintainer: Francisco Suarez <francisco.suarez@nutonomy.com>
+Build-Depends: debhelper (>=9)
+Pre-Depends: ${misc:Pre-Depends}
+Standards-Version: 3.9.6
+Homepage: https://github.com/fsuarez8/HesaiLidarSDK
+Vcs-Git: https://github.com/fsuarez8/HesaiLidarSDK.git
+
+Package: hesailidarsdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, libyaml-cpp-dev, libjpeg-dev, libpcap-dev
+Description: The SDK of Hesai's Lidars
+ The SDK of Hesai's Lidars, includes Pandar40/P
