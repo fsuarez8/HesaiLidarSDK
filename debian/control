@@ -10,6 +10,6 @@ Vcs-Git: https://github.com/fsuarez8/HesaiLidarSDK.git
 
 Package: hesailidarsdk
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, libyaml-cpp-dev, libjpeg-dev, libpcap-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, libproj-dev, libpcap-dev, libboost-all-dev, libyaml-cpp-dev, libjpeg-dev, libgdal-dev, libpq-dev, libvtk6-dev, libvtk6-qt-dev, libpcl-dev 
 Description: The SDK of Hesai's Lidars
  The SDK of Hesai's Lidars, includes Pandar40/P
